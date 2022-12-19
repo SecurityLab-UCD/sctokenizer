@@ -103,5 +103,7 @@ cpp_keyword_set = {
     'wchar_t',
     'while',
     'xor',
-    'xor_eq'
+    'xor_eq',
+    'size_t',
+    'string'
 }

@@ -42,7 +42,7 @@ class Source():
             return the Source object
             :rtype: Source
         """
-        with open(filepath, encoding='utf-8') as f:
+        with open(filepath, encoding='utf-8', errors='replace') as f:
             source_str = f.read()
         if lang is None:
             ext = os.path.splitext(filepath)[1][1:]
